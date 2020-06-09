@@ -1,8 +1,8 @@
-body{
+body
+{
     background-color: #071e3d;
     font-family: 'Abril Fatface', cursive !important;
     font-size: 2rem;
-    
 }
 
 
@@ -55,6 +55,11 @@ body{
     border-radius: 10px;
 }
 
+.main
+{
+    background-color: #000000;
+background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+}
 .quest:hover
 {
     background-image: url(static/img/QuestionMark.png);
@@ -150,12 +155,11 @@ body{
 }
 .yellow
 {
-    color: #ffc107  !important;
+    background-color: #f9d976 !important;
+    color: white !important;
 }
-.orange
-{
-    color: orange !important;
-}
+
+   
 .red
 {
     color: red !important;
