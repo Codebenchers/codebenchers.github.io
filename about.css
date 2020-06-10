@@ -1,4 +1,46 @@
 body
 {
-    background-color: black;
+    background-color: #e4eee9;
+    background-image: linear-gradient(315deg, #e4eee9 0%, #93a5ce 74%);
+    font-family: 'Dancing Script', cursive;
+    color: white;
+
+}
+
+h1
+{
+    font-size: 50px;
+}
+
+.animated-grid
+{
+    display: grid;
+    grid-template-rows: 1fr 3fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+.heading
+{
+    grid-column: 2/3;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.bhashan
+{
+    grid-row: 2/3;
+    grid-column: 1/4;
+    font-size: 3rem;
+    padding-left: 1em;
+    padding-right: 1em;
+    align-items: center;
+}
+
+#tagline
+{
+    color: white;
+    font-size: 50px;
+    text-align: center;
 }
