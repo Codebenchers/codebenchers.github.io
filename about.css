@@ -34,7 +34,7 @@ h1
     grid-column: 1/4;
     font-size: 3rem;
     padding-left: 1em;
-    padding-right: 1em;
+    padding-right: 3em;
     align-items: center;
 }
 
@@ -44,3 +44,68 @@ h1
     font-size: 50px;
     text-align: center;
 }
+
+.socialmedia
+{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    text-align: right;
+}
+
+.socialmedia > ul 
+{
+    list-style: none;
+}
+
+.socialmedia > ul > li 
+{
+    padding-bottom: 10px;    
+}
+
+
+.fa 
+{
+    padding: 12px;
+    font-size: 4rem !important;
+    width: 45px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    border-radius: 10px;
+    
+}
+
+  .fa:hover 
+  {
+    opacity: 0.7;
+  }
+
+  .fa-twitter 
+  {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-telegram
+  {
+      background: #0088CC;
+      color: white;
+  }
+
+  .fa-instagram
+  {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
+  }
+
+  .fa-github
+  {
+    background: #6e5494;
+    color: white;
+  }
+
+  .fa-youtube
+  {
+      background: #FF0000;
+      color: white;
+  }
