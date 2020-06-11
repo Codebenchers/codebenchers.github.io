@@ -15,7 +15,7 @@ h1
 .animated-grid
 {
     display: grid;
-    grid-template-rows: 1fr 3fr 2fr;
+    grid-template-rows: 1fr 2fr 2fr;
     grid-template-columns: 1fr 1fr 1fr;
     
 }
@@ -59,15 +59,15 @@ h1
 
 .socialmedia > ul > li 
 {
-    padding-bottom: 10px;    
+    padding-bottom: 5px;    
 }
 
 
 .fa 
 {
-    padding: 12px;
-    font-size: 4rem !important;
-    width: 45px !important;
+    padding: 5px;
+    font-size: 3rem !important;
+    width: 35px !important;
     text-align: center !important;
     text-decoration: none !important;
     border-radius: 10px;
@@ -108,4 +108,23 @@ h1
   {
       background: #FF0000;
       color: white;
+  }
+
+  .dheeraj
+  {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    text-align: center;
+  }
+  .tanya
+  {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    text-align: center;
+  }
+  .manan
+  {
+    grid-row: 3/4;
+    grid-column: 3/4;
+    text-align: center;
   }
