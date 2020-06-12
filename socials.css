@@ -1,0 +1,122 @@
+body
+{
+    background: rgb(33,136,255);
+background: radial-gradient(circle, rgba(33,136,255,1) 0%, rgba(0,92,197,1) 26%, rgba(4,66,137,1) 50%, rgba(3,47,98,1) 75%, rgba(5,38,76,1) 100%);
+    color: #f5f0ff;
+    font-family: 'Balsamiq Sans', cursive;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+
+}
+
+.head
+{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    font-size: 70px;
+    text-align: center ;
+}
+
+
+
+.row
+{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr;
+
+    border: solid red 2px;
+}
+
+.row > div
+{
+    padding: 1em;
+    margin: 1em;
+}
+
+.na
+{
+    text-align: center;
+    vertical-align: middle;
+}
+.yt
+{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.gh
+{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.tw
+{
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+.ig
+{
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+.tg
+{
+    grid-row: 1/2;
+    grid-column: 5/6;
+}
+.gm
+{
+    grid-row: 1/2;
+    grid-column: 6/7;
+}
+
+
+
+.fa 
+{
+    padding: 5px;
+    font-size: 3rem !important;
+    width: 35px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    
+}
+
+  .fa:hover 
+  {
+    opacity: 0.7;
+  }
+
+  .fa-twitter 
+  {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-telegram
+  {
+      background: #0088CC;
+      color: white;
+  }
+
+  .fa-instagram
+  {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: white;
+  }
+
+  .fa-github
+  {
+    background: #6e5494;
+    color: white;
+  }
+
+  .fa-youtube
+  {
+      background: #FF0000;
+      color: white;
+  }
