@@ -28,12 +28,12 @@ background: radial-gradient(circle, rgba(33,136,255,1) 0%, rgba(0,92,197,1) 26%,
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr;
 
-    border: solid red 2px;
+    /* border: solid red 2px; */
 }
 
-.row > div
+.row > .fa
 {
-    padding: 1em;
+    padding: 3rem;
     margin: 1em;
 }
 
@@ -41,65 +41,54 @@ background: radial-gradient(circle, rgba(33,136,255,1) 0%, rgba(0,92,197,1) 26%,
 {
     text-align: center;
     vertical-align: middle;
-}
-.yt
-{
-    grid-row: 1/2;
-    grid-column: 1/2;
-}
-.gh
-{
-    grid-row: 1/2;
-    grid-column: 2/3;
-}
-.tw
-{
-    grid-row: 1/2;
-    grid-column: 3/4;
-}
-.ig
-{
-    grid-row: 1/2;
-    grid-column: 4/5;
-}
-.tg
-{
-    grid-row: 1/2;
-    grid-column: 5/6;
-}
-.gm
-{
-    grid-row: 1/2;
-    grid-column: 6/7;
+    font-size: 20px;
 }
 
 
 
 .fa 
 {
-    padding: 5px;
-    font-size: 3rem !important;
-    width: 35px !important;
+    padding: 10px !important;
+    font-size: 4em !important;
+    width: 70px !important;
+    height: 50px;
     text-align: center !important;
     text-decoration: none !important;
+    /* border: solid white 3px; */
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+    transition-duration: 1s;
     
 }
 
   .fa:hover 
   {
-    opacity: 0.7;
+    opacity: 2;
+    transform: scale(2);
   }
 
   .fa-twitter 
   {
     background: #55ACEE;
     color: white;
+    grid-row: 1/2;
+    grid-column: 1/2;
   }
 
   .fa-telegram
   {
       background: #0088CC;
       color: white;
+      grid-row: 1/2;
+      grid-column: 5/6;
   }
 
   .fa-instagram
@@ -107,16 +96,30 @@ background: radial-gradient(circle, rgba(33,136,255,1) 0%, rgba(0,92,197,1) 26%,
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     color: white;
+    grid-row: 1/2;
+    grid-column: 4/5;
   }
 
   .fa-github
   {
     background: #6e5494;
     color: white;
+    grid-row: 1/2;
+    grid-column: 2/3;
   }
 
   .fa-youtube
   {
       background: #FF0000;
       color: white;
+      grid-row: 1/2;
+    grid-column:  3/4;
+  }
+
+  .fa-envelope
+  {
+    background: #000000;
+    color: white;
+    grid-row: 1/2;
+    grid-column: 6/7;
   }
