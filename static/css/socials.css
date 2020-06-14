@@ -1,3 +1,8 @@
+html:root
+{
+  font-size: 20px;
+}
+
 body
 {
     background: rgb(33,136,255);
@@ -13,7 +18,7 @@ background: radial-gradient(circle, rgba(33,136,255,1) 0%, rgba(0,92,197,1) 26%,
 {
     grid-row: 1/2;
     grid-column: 2/3;
-    font-size: 70px;
+    font-size: 4rem;
     text-align: center ;
 }
 
@@ -33,15 +38,17 @@ background: radial-gradient(circle, rgba(33,136,255,1) 0%, rgba(0,92,197,1) 26%,
 
 .row > .fa
 {
-    padding: 1.5rem !important;
-    margin: 2rem;
+    padding: 1.5rem;
+    margin: 1.5rem;
+    
 }
 
 .na
 {
     text-align: center;
     vertical-align: middle;
-    font-size: 20px;
+    font-size: 1.5rem;
+    margin: 1.5rem;
 }
 
 
@@ -49,7 +56,7 @@ background: radial-gradient(circle, rgba(33,136,255,1) 0%, rgba(0,92,197,1) 26%,
 .fa 
 {
     
-    font-size: 3.5rem !important;
+    font-size: 3rem !important;
     width: 65px !important;
     height: 50px;
     text-align: center !important;
@@ -72,7 +79,7 @@ background: radial-gradient(circle, rgba(33,136,255,1) 0%, rgba(0,92,197,1) 26%,
   .fa:hover 
   {
     opacity: 2;
-    transform: scale(2);
+    transform: scale(1.5);
   }
 
   .fa-twitter 
