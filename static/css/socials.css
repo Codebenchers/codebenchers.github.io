@@ -1,132 +1,124 @@
-html:root
-{
-  font-size: 20px;
-}
-
 body
 {
-    background: rgb(33,136,255);
-background: radial-gradient(circle, rgba(33,136,255,1) 0%, rgba(0,92,197,1) 26%, rgba(4,66,137,1) 50%, rgba(3,47,98,1) 75%, rgba(5,38,76,1) 100%);
-    color: #f5f0ff;
-    font-family: 'Balsamiq Sans', cursive;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
 
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+	grid-template-columns: 1fr 3fr 1fr;
+	text-shadow: 1px black;
 }
 
 .head
 {
     grid-row: 1/2;
     grid-column: 2/3;
-    font-size: 4rem;
-    text-align: center ;
+    font-size: 80px;
+	text-align: center ;
+	
 }
 
-
-
+#ul
+{
+	border-bottom: solid black 3px;
+}
 .row
 {
     grid-row: 2/3;
     grid-column: 2/3;
-    display: grid;
-    
+    display: grid;    
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr;
-
-    /* border: solid red 2px; */
+	grid-template-rows: 1fr 1fr;
+	margin-bottom: 9vh;
 }
 
 .row > .fa
 {
-    padding: 1.5rem;
-    margin: 1.5rem;
-    
+    padding: 5vh;
+    margin: 5vh;
 }
 
 .na
 {
     text-align: center;
     vertical-align: middle;
-    font-size: 1.5rem;
-    margin: 1.5rem;
+    font-size: 30px;
+    padding: 2.5vh;
 }
 
 
 
 .fa 
 {
-    
-    font-size: 3rem !important;
-    width: 65px !important;
+    font-size: 60px;
+    width: 65px;
     height: 50px;
-    text-align: center !important;
-    text-decoration: none !important;
-    /* border: solid white 3px; */
+    text-align: center;
+    text-decoration: none;
     border-radius: 5px;
     cursor: pointer;
     box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12)
-;
-    transition-duration: 1s;
-    
+    	0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    	0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+		0 12.5px 10px rgba(0, 0, 0, 0.06),
+		0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+		0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+		0 100px 80px rgba(0, 0, 0, 0.12);
+    transition-duration: 0.5s;
 }
 
-  .fa:hover 
-  {
+.fa:hover 
+{
     opacity: 2;
-    transform: scale(1.5);
-  }
+    transform: scale(1.25);
+}
 
-  .fa-twitter 
-  {
+.fa-twitter 
+{
     background: #55ACEE;
     color: white;
     grid-row: 1/2;
     grid-column: 1/2;
-  }
+}
 
-  .fa-telegram
-  {
-      background: #0088CC;
-      color: white;
-      grid-row: 1/2;
-      grid-column: 5/6;
-  }
+.fa-telegram
+ {
+    background: #0088CC;
+    color: white;
+    grid-row: 1/2;
+    grid-column: 5/6;
+}
 
-  .fa-instagram
-  {
+.fa-instagram
+{
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     color: white;
     grid-row: 1/2;
     grid-column: 4/5;
-  }
+}
 
-  .fa-github
-  {
+.fa-github
+{
     background: #6e5494;
     color: white;
     grid-row: 1/2;
     grid-column: 2/3;
-  }
+}
 
-  .fa-youtube
-  {
-      background: #FF0000;
-      color: white;
-      grid-row: 1/2;
+.fa-youtube
+{
+    background: #FF0000;
+    color: white;
+    grid-row: 1/2;
     grid-column:  3/4;
-  }
+}
 
-  .fa-envelope
-  {
+.fa-envelope
+{
     background: #000000;
     color: white;
     grid-row: 1/2;
     grid-column: 6/7;
-  }
+}
