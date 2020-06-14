@@ -24,7 +24,7 @@ body
     'j i h g';
 
     grid-template-rows: repeat(4, 25%);
-    grid-template-columns: 25vw auto auto 25vw;
+    grid-template-columns: 20vw auto auto 20vw;
 
     --stagger-delay: 100ms;
 }

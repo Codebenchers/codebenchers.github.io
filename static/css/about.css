@@ -1,115 +1,49 @@
 body
 {
-    background-color: #e4eee9;
-    background-image: linear-gradient(315deg, #e4eee9 0%, #93a5ce 74%);
-    font-family: 'Dancing Script', cursive;
-    color: white;
+	background-color: #8EC5FC;
+	background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    font-family: 'Montserrat', sans-serif;
+	color: white;
+	display: grid;
+	grid-template-columns: 1fr 5fr 1fr;
+	grid-template-rows: 1fr 5fr 1fr;
 
 }
 
-h1
+.head
 {
-    font-size: 50px;
-}
-
-.animated-grid
-{
-    display: grid;
-    grid-template-rows: 1fr 2fr 2fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    
-}
-
-.heading
-{
+    grid-row: 1/2;
     grid-column: 2/3;
-    font-size: 70px;
-    text-align: center;
-    padding-top: 1em;
+    font-size: 80px;
+	text-align: center ;
+	color: black;
+}
+
+#ul
+{
+	border-bottom: solid black 3px;
 }
 
 .bhashan
 {
-    grid-row: 2/3;
-    grid-column: 1/4;
-    font-size: 3rem;
-    padding-left: 1em;
-    padding-right: 3em;
-    align-items: center;
+    grid-row: 2/5;
+    grid-column: 1/5;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+	align-items: center;
+	text-align: justify;
+	color: black;
 }
 
 #tagline
 {
-    color: white;
+    color: black;
     font-size: 50px;
     text-align: center;
 }
 
-.socialmedia
-{
-    grid-row: 2/3;
-    grid-column: 3/4;
-    text-align: right;
-}
-
-.socialmedia > ul 
-{
-    list-style: none;
-}
-
-.socialmedia > ul > li 
-{
-    padding-bottom: 5px;    
-}
-
-
-.fa 
-{
-    padding: 5px;
-    font-size: 3rem !important;
-    width: 35px !important;
-    text-align: center !important;
-    text-decoration: none !important;
-    border-radius: 10px;
-    
-}
-
-  .fa:hover 
-  {
-    opacity: 0.7;
-  }
-
-  .fa-twitter 
-  {
-    background: #55ACEE;
-    color: white;
-  }
-
-  .fa-telegram
-  {
-      background: #0088CC;
-      color: white;
-  }
-
-  .fa-instagram
-  {
-    background: #d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-    color: white;
-  }
-
-  .fa-github
-  {
-    background: #6e5494;
-    color: white;
-  }
-
-  .fa-youtube
-  {
-      background: #FF0000;
-      color: white;
-  }
-
+/* 
   .dheeraj
   {
     grid-row: 3/4;
@@ -127,4 +61,4 @@ h1
     grid-row: 3/4;
     grid-column: 3/4;
     text-align: center;
-  }
+  } */
