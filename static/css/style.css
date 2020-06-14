@@ -1,8 +1,12 @@
+html:root
+{
+    font-size: 20px;
+}
+
 body
 {
     background-color: #071e3d;
     font-family: 'Abril Fatface', cursive !important;
-    font-size: 2rem;
 }
 
 
@@ -11,16 +15,16 @@ body
     height: 90vh;
 
     display: grid;
-    gap: 0.5rem;
+    gap: 1vh;
 
     grid-template-areas:
     'a b c d'
-    'l 😂 😂 e'
-    'k 😂 😂 f'
+    'l x x e'
+    'k x x f'
     'j i h g';
 
     grid-template-rows: repeat(4, 25%);
-    grid-template-columns: 220px auto auto 220px;
+    grid-template-columns: 25vw auto auto 25vw;
 
     --stagger-delay: 100ms;
 }
@@ -39,20 +43,13 @@ body
 }
 
 .card {
-    /* background-color:#1f4287; */
-    /* background-color: #2876f9;
-    background-image: linear-gradient(315deg, #2876f9 0%, #6d17cb 74%); */
-    /* background-color: #f977ce;
-    background-image: linear-gradient(315deg, #f977ce 0%, #c373f2 74%); */
-    /* background-color: #6617cb;
-    background-image: linear-gradient(315deg, #6617cb 0%, #cb218e 74%); */
 
-    background-color: #eeeeee;
 
     animation: cardEntrance 700ms ease-out;
     animation-fill-mode: backwards;
     border: solid black 2px;
     border-radius: 10px;
+    font-size: 2rem ;
 }
 
 .main
@@ -128,7 +125,7 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
 }
 
 .card:last-child {
-    grid-area:😂;
+    grid-area: x;
     animation-delay: calc(13 * var(--stagger-delay));
 }
 
@@ -172,8 +169,8 @@ background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
      'b c'
      'j d'
      'j d'
-     '😂 😂'
-     '😂 😂'
+     'x x'
+     'x x'
      'i h'
      'g f';
      grid-template-columns: 1fr 1fr;
