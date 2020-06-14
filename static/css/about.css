@@ -6,7 +6,7 @@ body
 	color: white;
 	display: grid;
 	grid-template-columns: 1fr 5fr 1fr;
-	grid-template-rows: 1fr 5fr 1fr;
+	grid-template-rows: 1fr 2fr 1fr;
 
 }
 
@@ -26,20 +26,22 @@ body
 
 .bhashan
 {
-    grid-row: 2/5;
+    grid-row: 2/3;
     grid-column: 1/5;
     font-size: 30px;
     padding-left: 30px;
     padding-right: 30px;
-	align-items: center;
-	text-align: justify;
-	color: black;
+	  align-items: center;
+	  text-align: justify;
+	  color: black;
 }
 
 #tagline
 {
+    grid-row: 3/4;
+    grid-column: 1/5;
     color: black;
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
 }
 
