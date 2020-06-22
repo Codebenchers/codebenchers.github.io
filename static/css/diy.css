@@ -59,7 +59,7 @@ background-image: linear-gradient(315deg, #fde7f9 0%, #aacaef 74%);
 	font-size: 30px;
 	color:white;
 	position: absolute;
-    top: 130px;
+    top: 140px;
 	left: 100px; 
 	box-shadow:
     	0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -74,8 +74,9 @@ background-image: linear-gradient(315deg, #fde7f9 0%, #aacaef 74%);
 {
 	
 	position:absolute;
-	top: 50px;
-	left: 25px;
+	top: 45px;
+	left: 45px;
+	font-size: 50px;
 	/* padding-top: 1000px; */
 }
 
@@ -182,6 +183,7 @@ background-image: linear-gradient(315deg, #fde7f9 0%, #aacaef 74%);
 {
    font-size: 30px;
    color: white;
+   padding-top: 55px;
    
 }
 
@@ -199,6 +201,7 @@ background-image: linear-gradient(315deg, #fde7f9 0%, #aacaef 74%);
 	border-radius: 0px;
 	text-align: center;
 	height: 55px;
+	padding-top: 10px;
 }
 
 
