@@ -4,6 +4,8 @@
 }
 
 
+
+
 body
 {     
     background-color: #b0bec5  ;
@@ -20,6 +22,11 @@ body
     height: 200px;
     width: 200px;
     transform: scale(0.7);
+}
+
+.special
+{
+    background-color: black;
 }
 
 .head
