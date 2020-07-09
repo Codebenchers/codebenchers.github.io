@@ -11,7 +11,7 @@ body
 	grid-template-columns: 1fr 5fr 1fr 2fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     min-height: 100vh;
-    background: #3f51b5;
+    background: #eceff1;
 }
 
 .head
@@ -24,7 +24,8 @@ body
     color: white;
     display: grid;
     grid-template-columns: 3fr 1fr 1fr 1fr 1fr ;
- background: #1a237e;
+    background: #78909c;
+    box-shadow: 0 8px 6px -6px black;
 }
 #ul
 {
@@ -104,6 +105,7 @@ body
     grid-row: 2/3;
     grid-column: 1/7;
     background: #c5cae9;
+    text-overflow:ellipsis ;
 }
 
 .img
@@ -136,7 +138,7 @@ p
     display: none;
 }
 
-#readmorebutton
+#show
 {
     cursor: pointer;
     color: blue;

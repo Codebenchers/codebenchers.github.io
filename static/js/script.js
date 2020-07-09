@@ -1,5 +1,5 @@
 function show()
 {
-    document.querySelectorAll("#readmore").style.display="block";
-    document.querySelectorAll("#readmorebutton").style.display="none";
+    document.getElementById("show").style.display = "none";
+    document.getElementById("readmore").style.display = "block";
 }
