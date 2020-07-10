@@ -5,7 +5,7 @@ html:root
 
 body
 {
-    background-color: #071e3d;
+    background-color: #464650;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -54,7 +54,7 @@ body
 
 .main
 {
-    background-color: #b388ff ;
+    background-color: #464650 ;
 
     color: white;
 }
@@ -135,36 +135,36 @@ body
 
 
 
-.pink
-{
-    background-color: #e57373 !important;
-    color: white !important;
-}
-.indigo
-{
-    color: #80cbc4 !important;
-}
-.green
-{
-    background-color: #00bfa5 !important;
-    color: white;
-}
 .blue
 {
-    background-color: #64b5f6 !important;
+    background-color:#7395AE!important;
+    color: white !important;
+}
+/* .dark
+{
+    color: #5CDB95 !important;
+} */
+.green
+{
+    background-color: #557A95   !important;
+    color: white;
+}
+/* .blue
+{
+    background-color: #5CDB95 !important;
     color: white !important;
 }
 .yellow
 {
-    background-color: #f9d976 !important;
+    background-color: #379683  !important;
     color: white !important;
 }
 
    
 .red
 {
-    color: red !important;
-}
+    color: #5CDB95!important;
+} */
 @media screen and (max-width: 500px) {
     .animated-grid
     {
