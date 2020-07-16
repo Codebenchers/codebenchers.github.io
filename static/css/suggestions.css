@@ -1,120 +1,167 @@
+* {
+  /* outline: solid red 1px; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-body
+body {
+  display: grid;
+  grid-row: 1fr 3fr 1fr;
+  grid-column: 1fr 1fr;
+  font-family: "Montserrat", sans-serif;
+  background-color: #ffffff;
+  min-height: 100vh;
+}
+
+.head {
+  grid-row: 1/2;
+  grid-column: 1/3;
+  display: grid;
+  justify-items: right;
+  align-items: center;
+  background-color: #18152e;
+  color: #4fccfe;
+  font-size: 20px;
+  min-height: 12vh;
+  position: static;
+}
+
+.head > ul {
+  list-style-type: none;
+  display: block;
+  text-align: center;
+  justify-items: center;
+  /* overflow: hidden; */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+  height: 100%;
+}
+
+li {
+  float: left;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding: 0px 15px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+li {
+  float: left;
+}
+
+.midrow {
+  grid-row: 2/3;
+  grid-column: 1/3;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.form {
+  padding: 2.5%;
+  grid-row: 1/2;
+  grid-column: 2/3;
+  font-size: 25px;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  border-radius: 10px;
+  width: 100%;
+}
+
+#suggestionform
 {
-    background-color: #bdd4e7;
-    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
-    font-family: 'Montserrat', sans-serif;
-	color: black;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 3fr 1fr;
-	justify-content: center;
+  width: 70%;
+}
 
+.suggestions {
+  padding: 10%;
+  grid-row: 1/2;
+  grid-column: 1/2;
+  font-size: 75px;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
+  background-color: #18152e;
+  color: #4fccfe;
 }
 
 
-.head
-{
-    grid-row: 1/2;
-    grid-column: 1/4;
-    font-size: 80px;
-    text-align: center ;
-	color: black;
-	margin-bottom: 50px;
+
+
+
+input[type="text"] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  transition: 0.5s;
+  background-color: #4fccfe;
 }
 
-#ul
-{
-	border-bottom: solid black 3px;
+input[type="email"] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  transition: 0.5s;
+  background-color: #4fccfe;
 }
 
-.title
-{
-	font-size: 30px;
-	background-color: #121212;
-	color: white;
-	border-radius: 0px;
-	text-align: center;
-	height: 55px;
-	padding-top: 10px;
+#msgbox {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  transition: 0.5s;
+  background-color: #4fccfe;
 }
 
-.container
-{
-    margin: 20px;
+input[type="submit"] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background-color: #485461;
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
-.form
-{
-	background-color: #2d3436;
-	background-image: linear-gradient(150deg, #2d3436 0%, #000000 74%);
-	grid-row: 2/3;
-	grid-column: 2/3;
-	display: grid;
-	grid-template-rows: 1fr;
-	grid-template-columns: 1fr;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	border-radius: 10px;
-}
-
-input[type=text] 
-{
-    width: 70%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border-radius: 50px;
-    outline: none;
-    border: none;
-    transition: 0.5s;
-    background-color: #a4bfef;
-}
-
-input[type=email] 
-{
-    width: 70%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border-radius: 50px;
-    outline: none;
-    border: none;
-    transition: 0.5s;
-    background-color: #a4bfef;
-}
-
-
-#msgbox
-{
-	width: 70%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border-radius: 10px;
-    outline: none;
-    border: none;
-    transition: 0.5s;
-    background-color: #a4bfef;
-}
-
-input[type=submit] 
-{
-    width: 70%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border-radius: 50px;
-    outline: none;
-    border: none;
-    background-color: #485461;
-    color: white;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-input[type=submit]:hover
-{
-    background: #a4bfef;
+input[type="submit"]:hover {
+  background: #4fccfe;
 }
