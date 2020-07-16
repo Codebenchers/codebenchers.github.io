@@ -44,21 +44,19 @@ body
 
 .card {
 
-    background-color: #18152E;
+
     animation: cardEntrance 700ms ease-out;
     animation-fill-mode: backwards;
-    border: solid #4FCCFE 2px;
-    color: #4FCCFE;
+    border: solid black 2px;
     border-radius: 10px;
     font-size: 1.75rem ;
-    text-align: center;
 }
 
 .main
 {
-    background-color: #18152E;
-    border: solid #4FCCFE 2px;
-    color: #4FCCFE;
+    background-color: #464650 ;
+
+    color: white;
 }
 .quest:hover
 {
@@ -135,22 +133,22 @@ body
     animation-delay: calc(13 * var(--stagger-delay));
 }
 
-/* 
+
 
 .blue
 {
     background-color:#7395AE!important;
     color: white !important;
-} */
+}
 /* .dark
 {
     color: #5CDB95 !important;
 } */
-/* .green
+.green
 {
     background-color: #557A95   !important;
     color: white;
-} */
+}
 /* .blue
 {
     background-color: #5CDB95 !important;
