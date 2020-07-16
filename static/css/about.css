@@ -1,82 +1,32 @@
-*
+/* *
 {
-    /* outline: solid red 1px; */
-    margin: 0;
-    padding: 0;
-}
+    outline: solid red 1px;
+} */
 body
 {
   display: grid;
-  grid-row: 2fr 4fr 2fr 2fr;
+  grid-row: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-column: 1fr 1fr 1fr 1fr 1fr;
-  font-family: 'Montserrat', sans-serif;
-  background-color: #fcf6f5;
 }
 .head
 {
 grid-row: 1/2;
-grid-column: 1/6;
-display: grid;
-justify-items: right;
-align-items: center;
-background-color: #89abe3;
-color: #fcf6f5;
-font-size: 20px;
-height: 75px;
+grid-column: 2/6;
+justify-items: center;
 }
 
-.head > ul
+#team
 {
-  list-style-type: none;
-  display:block;
-  text-align: center; 
-  justify-items: center;
-  /* overflow: hidden; */
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  float: right;
-  height:100%;
-
-}
-
-
-li {
-  float: left;
-  height: 100%;
-  display: grid;
-  align-items: center;
-  justify-items: center;
-  padding: 0px 15px;
- 
-}
-
-li a {
-  display: block;
-  color: white;
   text-align: center;
-  padding: 16px;
- 
-  text-decoration: none;
+  justify-items: center;
+  align-items: center;
 }
-
-li a:hover {
-  background-color: #111111;
-}
-
-li
-{
-  float: left;
-}
-
-
 
 .bhashan
 {
-  grid-row: 2/3;
+  grid-row: 3/4;
   grid-column: 1/6;
-font-size: 150%;
+font-size: 220%;
 justify-items: center;
 text-align: center;
 align-items: center;
@@ -84,9 +34,9 @@ padding-top: 5%;
 }
 #tagline
 {
-  grid-row:3/4 ;
+  grid-row:4/5 ;
   grid-column: 1/6;
-  font-size:140%;
+  font-size: 230%;
   text-align: center;
   align-items: center;
   justify-items: center;
@@ -95,9 +45,9 @@ padding-top: 5%;
 }
 .foot
 {
-  grid-row: 4/5;
+  grid-row: 6/7;
   grid-column: 1/6;
-  font-size: 100%;
+  font-size: 200%;
   text-align: left;
 font-display: bold;
 background-color:#18315a;
